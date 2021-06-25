@@ -1,8 +1,10 @@
 package factory.factory;
 
 import factory.Pizza;
-import factory.factory.PizzaStore;
-import factory.factory.concretepizzastyles.*;
+import factory.factory.concretepizzastyles.CheesePizza;
+import factory.factory.concretepizzastyles.ClamPizza;
+import factory.factory.concretepizzastyles.PepperoniPizza;
+import factory.factory.concretepizzastyles.VeggiePizza;
 
 public class ChicagoStylePizzaStore extends PizzaStore {
 
@@ -13,7 +15,7 @@ public class ChicagoStylePizzaStore extends PizzaStore {
 
         PizzaIngredientFactory pizzaIngredientFactory = new ChicagoStyleIngredientFactory();
 
-        
+
 
         switch (type) {
             case "cheese" -> {

@@ -11,7 +11,7 @@ public abstract class Pizza {
     public String name;
     public Dough dough;
     public Sauce sauce;
-    public Veggies veggies[];
+    public Veggies[] veggies;
     public Cheese cheese;
     public Pepperoni pepperoni;
     public Clams clams;

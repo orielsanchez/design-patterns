@@ -4,15 +4,15 @@ import factory.factory.ingredients.*;
 
 public interface PizzaIngredientFactory {
 
-    public Dough createDough();
+    Dough createDough();
 
-    public Sauce createSauce();
+    Sauce createSauce();
 
-    public Cheese createCheese();
+    Cheese createCheese();
 
-    public Veggies[] createVeggies();
+    Veggies[] createVeggies();
 
-    public Pepperoni createPepperoni();
+    Pepperoni createPepperoni();
 
-    public Clams createClams();
+    Clams createClams();
 }
