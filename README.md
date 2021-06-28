@@ -15,6 +15,9 @@
 4. Strive for loosely coupled designs between objects that interact
 5. Classes should be open for extension, but closed for modification
 6. Depend on abstractions, do not depend on concrete classes
+7. Only talk to your friends
+8. Don't call us, we'll call you
+9. A class should only have one reason to change
 
 ## OO Patterns
 
@@ -83,4 +86,4 @@ The Proxy Pattern provides a surrogate or placeholder for another object to cont
 
 ### 14. Compound
 
-The Compound Pattern is a pattern of patterns working together.
+The Compound Pattern combines two or more patterns into a solution that solves a recurring or general problem.
