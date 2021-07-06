@@ -1,4 +1,7 @@
-package templatemethod.components;
+package templatemethod.tests;
+
+import templatemethod.components.CoffeeWithHook;
+import templatemethod.components.Tea;
 
 public class BeverageTestDrive {
 

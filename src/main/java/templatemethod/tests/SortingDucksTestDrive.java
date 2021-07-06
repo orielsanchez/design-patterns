@@ -1,4 +1,6 @@
-package templatemethod.components;
+package templatemethod.tests;
+
+import templatemethod.components.Duck;
 
 import java.util.Arrays;
 
